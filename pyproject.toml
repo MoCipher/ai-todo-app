@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ai-todo-app"
+version = "0.1.0"
+description = "An AI-powered to-do list application with task prioritization, reminders, activity predictions, and voice command support."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.0"
+tensorflow = "^2.6"
+numpy = "^1.21"
+pandas = "^1.3"
+scikit-learn = "^0.24"
+speechrecognition = "^3.8"
+pydantic = "^1.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
