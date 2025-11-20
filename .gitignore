@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+pip-wheel-metadata/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Pytest / test caches
+.pytest_cache/
+
+# Environment files
+.env
+.env.*
+.secrets
+secrets.json
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+.ropeproject/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+
+# SQLite and local DBs
+*.db
+*.sqlite
+*.sqlite3
+
+# TensorFlow / model artifacts / checkpoints / logs
+*.h5
+*.hdf5
+saved_model.pb
+checkpoint
+checkpoint-*
+variables/
+model_weights/
+logs/
+tensorboard/
+
+# Type checkers / coverage
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local data / audio files
+data/
+*.wav
+*.mp3
+*.flac
+
+# Keys / certificates
+*.pem
+*.key
